@@ -13,7 +13,7 @@ public interface IScoreProducer
     /// Gameover function should return any score that could only be tabulated on a triggered gameover state. Returned value will be added ontop of every 
     /// </summary>
     /// <returns>Any score to be added from this producer that is only calculated at end of round</returns>
-    public int GameOver();
+    //public int GameOver();
     /// <summary>
     /// Implement update score function. All score producer will be polled each graphical frame. Return false in ShouldPollEveryFrame to only utilize Gameover function
     /// </summary>

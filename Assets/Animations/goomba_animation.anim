@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: coin_score_animation
+  m_Name: goomba_animation
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 682605675, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
+      value: {fileID: 656512952, guid: 4d953ee8a2e3043538664e5eb88ff553, type: 3}
     - time: 0.33333334
-      value: {fileID: 539989433, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
+      value: {fileID: 1832949653, guid: 4d953ee8a2e3043538664e5eb88ff553, type: 3}
     - time: 0.6666667
-      value: {fileID: 1841650150, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
-    - time: 1
-      value: {fileID: 682605675, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
+      value: {fileID: 656512952, guid: 4d953ee8a2e3043538664e5eb88ff553, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,16 +48,15 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 682605675, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
-    - {fileID: 539989433, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
-    - {fileID: 1841650150, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
-    - {fileID: 682605675, guid: 82bc45c4496284f4c823d1b837f65ec4, type: 3}
+    - {fileID: 656512952, guid: 4d953ee8a2e3043538664e5eb88ff553, type: 3}
+    - {fileID: 1832949653, guid: 4d953ee8a2e3043538664e5eb88ff553, type: 3}
+    - {fileID: 656512952, guid: 4d953ee8a2e3043538664e5eb88ff553, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0833334
+    m_StopTime: 0.75
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
